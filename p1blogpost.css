@@ -1,0 +1,112 @@
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+} */
+
+header {
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+header p {
+  line-height: 40px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+header button {
+  float: right;
+}
+
+footer {
+  height: 40px;
+  border-radius: 5px;
+  background: lightgray;
+}
+
+footer p {
+  text-align: center;
+  line-height: 40px;
+  color: darkgray;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.main-content .right h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-content .right li {
+  margin-bottom: 10px;
+}
+
+.main-content .right a {
+  color: lightblue;
+}
+
+.main-content .right ul{
+  list-style: none;
+  padding: 0;
+}
+
+
+.main-content .about-me {
+  background: lightgray;
+  padding: 10px;
+}
+
+.main-content .box {
+  border: 1px solid lightgray;
+}
+
+.main-content code {
+  display: block;
+  border: 1px solid lightgray;
+}
+
+.main-content .left h2 {
+  margin-bottom: 0;
+}
+
+.main-content .left .page-title p {
+  margin-top: 4px;
+}
+
+.main-content .left p {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.main-content .left button {
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.main-content .left .older-post {
+  border-color: aqua;
+  color: aqua;
+}

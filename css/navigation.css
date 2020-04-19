@@ -1,0 +1,42 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #02b3e4;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  float: left;
+  clear: left;
+  margin-bottom: 10px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+}
+
+nav button:hover {
+  cursor: pointer;
+  background: lightgray;
+}
+
+nav .follow {
+  background: #02b3e4;
+  color: white;
+  border: 0 none;
+}
+
+
+nav .subscribe {
+  border: 1px solid #02b3e4;
+  color: #02b3e4;
+}

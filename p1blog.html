@@ -3,54 +3,72 @@
   <head>
     <meta charset="utf-8" />
     <title>Blog main page</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
 
-    <link rel="stylesheet" href="p1blog.css">
-        
+    <link rel="stylesheet" href="css/p1blog.css" />
   </head>
 
   <body>
-  <div class = "container">
-    <nav>
-      <ul>
-        <li><a href="#">Design System</a></li>
-        <li><a href="#">Link Two</a></li>
-        <li><a href="#">Link Three</a></li>
-        <li><a href="#">Link Four</a></li>
-      </ul>
-      <button class="follow">Follow</button>
-      <button class="subscribe">Subscribe</button>
-    </nav>
-    <div class="main-content">
-      <h3>The basic blog layout uses Milligram in tandem with CSS Grid & Flexbox.</h3>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#">Design System</a></li>
+          <li><a href="p1blogpost.html" target="_self">Blog Post 1</a></li>
+          <li><a href="p2blogpost.html" target="_self">Blog Post 2</a></li>
+          <li><a href="p3blogpost.html" target="_self">Blog Post 3</a></li>
+        </ul>
+        <button class="follow">Follow</button>
+        <button class="subscribe">Subscribe</button>
+      </nav>
+      <section>
+        <h1>Welcome to my blog</h1>
+        <h3>The basic blog layout uses Milligram in tandem with CSS Grid & Flexbox.</h3>
 
-      <div class="main-content-container">
-        <div class="box active">
-          <h2>Blog Post 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur quasi officiis cum.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur quasi officiis cum.
-          </p>
+        <div class="main-cards">
+          <article>
+            <h2><a href="p1blogpost.html" target="_self">Blog Post 1</a></h2>
+            <img src="images/cute-cat.jpg" alt="Cute Cat" />
+            <figcaption>My cute cat image</figcaption>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis
+              architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum
+              natus asperiores aspernatur quasi officiis cum. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla
+              incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur
+              quasi officiis cum.
+            </p>
+            <button>Read more</button>
+          </article>
+          <article>
+            <h2><a href="p2blogpost.html" target="_self">Blog Post 2</a></h2>
+            <p>Some <strong>awesome</strong> info goes here.</p>
+            <p><em>Just follow this post for more info</em></p>
+            <p><i>I am sure that you will like it</i></p>
+            <blockquote>Famous Quotes</blockquote>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis
+              architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum
+              natus asperiores aspernatur quasi officiis cum.
+            </p>
+            <button>Read more</button>
+          </article>
+          <article>
+            <h2><a href="p3blogpost.html" target="_self">Blog Post 3</a></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis
+              architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum
+              natus asperiores aspernatur quasi officiis cum. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla
+              incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur
+              quasi officiis cum.
+            </p>
+            <button>Read more</button>
+          </article>
         </div>
-        <div class="box">
-          <h2>Panel 2</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur quasi officiis cum.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur quasi officiis cum.
-          </p>
-        </div>
-        <div class="box">
-          <h2>Panel 3</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur quasi officiis cum.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus quis architecto quas? Sequi ab nulla incidunt saepe impedit dolor, qui iusto corrupti rerum natus asperiores aspernatur quasi officiis cum.
-          </p>
-        </div>
-      </div>
+      </section>
     </div>
-  </div>
-  <footer>
-    <p>Copyright 2020</p>
-  </footer>
+    <footer>
+      <p>Copyright 2020</p>
+    </footer>
   </body>
 </html>
